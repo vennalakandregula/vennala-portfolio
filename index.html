@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kandregula Vennela | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f7fc;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#0f172a,#2563eb);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.2rem;
+}
+
+nav{
+    background:#1e3a8a;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+}
+
+nav ul li{
+    margin:15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    color:#ffd700;
+}
+
+.container{
+    width:85%;
+    margin:auto;
+    padding:50px 0;
+}
+
+section h2{
+    text-align:center;
+    color:#1e3a8a;
+    margin-bottom:30px;
+    font-size:2rem;
+}
+
+.about{
+    text-align:center;
+}
+
+.profile{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:5px solid #2563eb;
+    margin-bottom:20px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.skill{
+    background:#2563eb;
+    color:white;
+    padding:12px 20px;
+    border-radius:25px;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    color:#1e3a8a;
+    margin-bottom:10px;
+}
+
+.resume{
+    text-align:center;
+}
+
+.btn{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:5px;
+    margin-top:15px;
+}
+
+.btn:hover{
+    background:#1e3a8a;
+}
+
+.contact{
+    text-align:center;
+    line-height:2;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.social{
+    margin-top:20px;
+}
+
+.social a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+    border:1px solid white;
+    padding:8px 15px;
+    border-radius:5px;
+}
+
+.social a:hover{
+    background:white;
+    color:#2563eb;
+}
+
+@media(max-width:768px){
+
+header h1{
+    font-size:2rem;
+}
+
+nav ul{
+    flex-wrap:wrap;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Kandregula Vennela</h1>
+    <p>Computer Science Engineering Student | Python Developer | Web Developer</p>
+
+   <div class="social">
+    <a href="https://www.linkedin.com/in/vennala-kandregula-891a5a2b6" target="_blank">LinkedIn</a>
+
+    <a href="https://github.com/vennalakandregula" target="_blank">GitHub</a>
+
+    <a href="mailto:vennalakandregula@gmail.com">Email</a>
+</div>
+</header>
+
+<nav>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#internships">Internships</a></li>
+<li><a href="#certifications">Certifications</a></li>
+<li><a href="#achievements">Achievements</a></li>
+<li><a href="#resume">Resume</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section id="about">
+<div class="container about">
+
+<img src="profile.jpeg" alt="Profile" class="profile">
+
+<h2>About Me</h2>
+
+<p>
+Hello! I am <b>Kandregula Vennala</b>, Computer Science and Engineering student with a CGPA of 9.05, skilled in Python, C Programming, Web Development, and AI/ML concepts. Experienced through virtual internships in Android Development, Cybersecurity, and AI/ML. Passionate about software development, problem-solving, and building innovative technology solutions. Seeking opportunities to apply technical skills and contribute to impactful projects.
+</p>
+<section id="education">
+<div class="container">
+
+<h2>Education</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>B.Tech - Computer Science & Engineering</h3>
+<p>Dadi Institute of Engineering & Technology, Anakapalle</p>
+<p>2023 - 2027 (Pursuing)</p>
+<p>CGPA: 9.05/10</p>
+</div>
+
+<div class="card">
+<h3>Intermediate (MPC)</h3>
+<p>Sri Chaitanya Junior College</p>
+<p>2021 - 2023</p>
+<p>CGPA: 8.72</p>
+</div>
+
+<div class="card">
+<h3>SSC</h3>
+<p>Sri Ramakrishna English Medium School</p>
+<p>2020 - 2021</p>
+<p>Percentage: 97.4%</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<section id="skills">
+<div class="container">
+
+<h2>Skills</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>Programming Languages</h3>
+<p>C Programming, Python</p>
+</div>
+
+<div class="card">
+<h3>Web Technologies</h3>
+<p>HTML5, CSS3, JavaScript</p>
+</div>
+
+<div class="card">
+<h3>Technical Domains</h3>
+<p>Cybersecurity, AI/ML Fundamentals, Android Development</p>
+</div>
+
+<div class="card">
+<h3>Tools & Software</h3>
+<p>VS Code, MS Word, MS Excel, PowerPoint</p>
+</div>
+
+<div class="card">
+<h3>Soft Skills</h3>
+<p>Leadership, Communication, Team Collaboration, Critical Thinking, Time Management</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section id="projects">
+<div class="container">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>🛒 Smart Cart System</h3>
+<p><strong>Technology:</strong> Arduino Uno, C++</p>
+<p>
+Developed a smart shopping cart solution integrating hardware and
+software components. Assisted in system testing, documentation, and
+Arduino-C++ integration to support automated shopping processes.
+</p>
+</div>
+
+<div class="card">
+<h3>🌐 Multilingual Ticket Translator</h3>
+<p><strong>Technology:</strong> HTML, CSS, JavaScript, AI Concepts</p>
+<p>
+Built a multilingual support ticket translation platform that enables
+users to translate service desk requests into different languages,
+improving customer support accessibility.
+</p>
+</div>
+
+<div class="card">
+<h3>💼 Personal Portfolio Website</h3>
+<p><strong>Technology:</strong> HTML5, CSS3</p>
+<p>
+Designed and developed a modern portfolio website to showcase academic
+achievements, technical skills, certifications, and projects with a
+responsive and user-friendly interface.
+</p>
+</div>
+
+</div>
+
+</div>
+</section>
+<section id="internships">
+<div class="container">
+
+<h2>Internships</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>Android Developer Virtual Internship</h3>
+<p><strong>Organization:</strong> AICTE - EduSkills & Google for Developers</p>
+<p><strong>Duration:</strong> Jan 2025 - Mar 2025</p>
+<p>
+Completed a 10-week virtual internship and achieved Grade O (Outstanding).
+Gained knowledge of Android application development, architecture, and mobile app fundamentals.
+</p>
+</div>
+
+<div class="card">
+<h3>Cybersecurity Virtual Internship</h3>
+<p><strong>Organization:</strong> AICTE - EduSkills</p>
+<p><strong>Duration:</strong> Oct 2024 - Dec 2024</p>
+<p>
+Learned cybersecurity fundamentals, network security, threat prevention,
+cloud security, and cyber risk management through practical activities.
+</p>
+</div>
+
+<div class="card">
+<h3>AI/ML Virtual Internship</h3>
+<p><strong>Organization:</strong> AWS Academy</p>
+<p><strong>Duration:</strong> Apr 2025 - Jun 2025</p>
+<p>
+Worked on AI and Machine Learning concepts including data preprocessing,
+model development, and cloud-based AI services.
+</p>
+</div>
+
+</div>
+
+</div>
+</section>
+<section id="certifications">
+<div class="container">
+
+<h2>Certifications</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>Generative AI</h3>
+<p>
+Completed certification in Generative AI covering prompt engineering,
+AI tools, and real-world applications.
+</p>
+</div>
+
+<div class="card">
+<h3>Python Full Stack Developer</h3>
+<p>
+Learned Python-based web development, database integration,
+API development, and responsive web applications.
+</p>
+</div>
+
+<div class="card">
+<h3>Java Full Stack Developer</h3>
+<p>
+Gained knowledge in front-end development, backend programming,
+database management, and full-stack application development.
+</p>
+</div>
+
+<div class="card">
+<h3>Basics of Python</h3>
+<p>
+Built a strong foundation in Python programming, functions,
+data structures, and problem-solving.
+</p>
+</div>
+
+<div class="card">
+<h3>C Programming</h3>
+<p>
+Developed practical skills in C programming, memory management,
+and logical problem-solving techniques.
+</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+</div>
+</section>
+<section id="achievements">
+<div class="container">
+
+<h2>Achievements & Awards</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>🏆 Merit Award</h3>
+<p>
+Received Merit Award from Sri Ramakrishna English Medium School for
+outstanding academic performance.
+</p>
+</div>
+
+<div class="card">
+<h3>🥇 1st Place - AI Poster Presentation</h3>
+<p>
+Secured First Place in Artificial Intelligence Poster Presentation
+conducted at Dadi Institute of Engineering & Technology.
+</p>
+</div>
+
+<div class="card">
+<h3>🎓 Academic Excellence</h3>
+<p>
+Maintaining a CGPA of  9.05  in B.Tech Computer Science & Engineering.
+</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section id="resume">
+<div class="container resume">
+
+<h2>Resume</h2>
+
+<p>Click below to download my resume.</p>
+
+<a href="resume.pdf" class="btn" download>Download Resume</a>
+
+</div>
+</section>
+
+<section id="contact">
+<div class="container contact">
+
+<h2>Contact Me</h2>
+
+<p><b>Email:</b> vennalakandregula@gmail.com</p>
+<p><b>Phone:</b> +91 7013218226</p>
+<p><b>Location:</b> Andhra Pradesh, India</p>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 Kandregula Vennela | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
